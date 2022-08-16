@@ -1,0 +1,37 @@
+{
+  "name": "vite-plugin-build-version",
+  "version": "0.0.1",
+  "description": "vite项目打包后获取package.json中的版本",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "tsup src/index.ts --dts --format cjs,esm --watch",
+    "build": "tsup src/index.ts --dts --format cjs,esm",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Webming19/vite-plugin-build-version"
+  },
+  "keywords": [
+    "vite-plugin",
+    "build",
+    "version"
+  ],
+  "bugs": {
+    "url": "https://github.com/Webming19/vite-plugin-build-version/issues"
+  },
+  "homepage": "https://github.com/Webming19/vite-plugin-build-version",
+  "devDependencies": {
+    "@types/node": "^18.7.5",
+    "tsup": "^6.2.2",
+    "typescript": "^4.7.4",
+    "vite": "^3.0.7"
+  },
+  "author": "WebMing",
+  "license": "MIT"
+}
