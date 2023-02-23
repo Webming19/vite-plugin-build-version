@@ -4,10 +4,10 @@ vite项目记录下本次打包的package.json版本
 
 ## 安装
 
-通过npm下载
+推荐使用`pnpm`下载，`npm`/`yarn`都可
 
 ```shell
-npm install vite-plugin-build-version --save-dev
+pnpm install vite-plugin-build-version --save-dev
 ```
 
 ## 用法

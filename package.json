@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-build-version",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "vite项目打包后获取package.json中的版本",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
