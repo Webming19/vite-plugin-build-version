@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-build-version",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "description": "vite项目打包后获取package.json中的版本",
   "scripts": {
     "dev": "vite --host",
