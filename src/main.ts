@@ -2,8 +2,6 @@ import { getBuildVersion } from '../lib';
 import typescriptLogo from './typescript.svg';
 import './style.css';
 
-console.log('V=>>', getBuildVersion);
-
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
     <a href="https://vitejs.dev" target="_blank">
