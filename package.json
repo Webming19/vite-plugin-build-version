@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-build-version",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "vite项目打包后获取package.json中的版本",
   "scripts": {
     "dev": "vite --host",
@@ -21,6 +21,10 @@
       "require": {
         "types": "./dist/index.d.ts",
         "default": "./dist/index.cjs"
+      },
+      "default": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.mjs"
       }
     }
   },

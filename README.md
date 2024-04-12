@@ -15,7 +15,7 @@ pnpm install vite-plugin-build-version --save-dev
 ```js
 // vite.config.js
 import { defineConfig } from 'vite';
-import buildVersionPlugin from 'vite-plugin-build-version';
+import { buildVersionPlugin } from 'vite-plugin-build-version';
 import packageJson from './package.json';
 
 // https://vitejs.dev/config/
