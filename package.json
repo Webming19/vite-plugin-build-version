@@ -6,10 +6,7 @@
     "dev": "vite --host",
     "build": "tsc && vite build"
   },
-  "files": [
-    "dist"
-  ],
-  "type": "module",
+  "files": ["dist"],
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {

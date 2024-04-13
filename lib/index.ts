@@ -17,7 +17,7 @@ const buildVersionPlugin = (version:string, modes: string[] = []): Plugin => {
       return [
         {
           tag: 'script',
-          children: `window.${buildVersionKey}='${version}'`,
+          children: `window.${buildVersionKey}=${version}`,
         },
       ];
     },
