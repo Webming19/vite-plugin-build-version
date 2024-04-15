@@ -1,7 +1,7 @@
 {
   "name": "vite-plugin-build-version",
-  "version": "0.1.0",
-  "description": "vite项目打包后获取package.json中的版本",
+  "version": "1.0.0",
+  "description": "记录下本次构建的package.json版本",
   "scripts": {
     "dev": "vite --host",
     "build": "tsc && vite build"
@@ -35,7 +35,7 @@
     "@types/node": "^20.12.7",
     "typescript": "^5.4.5",
     "vite": "^5.2.8",
-    "vite-plugin-dts": "^3.8.1"
+    "vite-plugin-dts": "^3.8.2"
   },
   "author": "EthanHan (https://github.com/Webming19)",
   "license": "MIT"
