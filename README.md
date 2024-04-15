@@ -2,7 +2,7 @@
 
 vite插件，记录下本次构建的package.json版本并用于开发环境/生产环境
 
-> 请注意，为了适应未来vite移除CommonJS支持，插件仅适用于ES6的Module，不适用于CommonJS
+> 请注意，为了适应未来vite移除CommonJS的支持，插件仅适用于ES6的Module
 
 ## 安装
 
@@ -24,7 +24,7 @@ export default defineConfig(({ mode }) => ({
   // ...其他配置
   plugins: [
     // 获取打包package中的打包版本，默认不传参仅production环境，传入mode参数表示任何构建环境
-    buildVersionPlugin(packageJson.version, [mode]),
+    buildVersionPlugin(JSON.stringify(packageJson.version), [mode]),
   ],
 }));
 // ...
